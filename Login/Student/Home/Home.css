@@ -1,0 +1,252 @@
+/* body {
+    margin: 0 auto;
+    max-width: 1920px;
+} */
+
+/*.main{
+padding: 1px;
+background-color:#FADF6A;
+margin:0;
+height: 120px;
+}
+a{
+color: #000000;
+text-decoration: none;
+}
+.graAdd{
+filter : "grayscale(100%)";
+}
+#contents{
+width:98%;
+font-size:70px;
+margin: 10px auto;
+color:#000000;
+}
+#login{
+position: absolute;
+top: 30px;
+left: 800px; 
+font-size:20px;
+margin: 10px auto;
+color:#000000;
+}
+
+.name{
+position: relative;
+left: 10%;
+bottom: 30px;
+}*/
+
+/* ヘッダー
+header {
+    padding: 1px;
+    background-color: #FADF6A;
+    margin: 0;
+    height: 120px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 a {
+    color: #000000;
+    text-decoration: none;
+    font-size:50px;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pc-nav {
+    position: relative;
+    top: 5px;
+} */
+
+    /*パンくず*/
+    .breadcrumb {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .pan a {
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+        top: -40px;
+        left: 15px
+    }
+
+    .breadcrumb li {
+        display: inline;
+        font-size: 25px;
+    }
+
+.pan a{
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+    left: 15px
+}
+
+.breadcrumb li {
+    display: inline;
+    font-size: 25px;
+} 
+
+/*image-container（借りてる本）*/
+.my-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my-image-container .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 2%;
+    cursor: pointer;
+    position: relative;
+    bottom: 60px;
+}
+
+.my-image-container img {
+    width: 230px;
+    height: 280px;
+}
+
+.my-image-container .image-text {
+    text-align: center;
+    padding: 10px;
+    white-space: pre-line;
+    /* 改行を適用するための設定 */
+}
+
+/*image-container（全ての本）*/
+.all-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.all-image-container .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 2%;
+    cursor: pointer;
+}
+
+.all-image-container img {
+    width: 230px;
+    height: 280px;
+}
+
+.all-image-container .image-text {
+    text-align: center;
+    padding: 10px;
+    white-space: pre-line;
+}
+
+.grayAdd{
+    filter : grayscale(1);
+}
+
+.showbook {
+    position: absolute;
+    font-size: 30px;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.showbook2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*検索*/
+.search {
+    text-align: right;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.search-input {
+    border: none;
+    border-bottom: 1px solid black;
+    /* ここでボックスをアンダーバーに変更 */
+    outline: none;
+    width: 200px;
+}
+
+.search-button {
+    text-align: right;
+    cursor: pointer;
+}
+
+/*横線*/
+.custom-hr {
+    border-top: 1px solid #007BFF;
+    height: 1px;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+}
+
+/*ログアウトボタン*/
+/* .logout-button {
+    font-size: 20px;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 3px;
+    float: right;
+    margin: 10px;
+    background: #FADF6A;
+    color: #000000;
+    border-radius: 20px;
+} */
+
+/*履歴ボタン*/
+.history-button {
+    font-size: 20px;
+    width: 120px;
+    height: 60px;
+    float: right;
+    margin: 10px;
+    background: #CDCDC0;
+    color: #000000;
+    border-radius: 60px;
+    position: relative;
+    bottom: 90px;
+    right: 35px;
+}
+
+/*QRコード*/
+.relative {
+    position: relative;
+    float: right;
+}
+
+.big {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 30px;
+    right: 55px;
+}
+
+.small {
+    position: absolute;
+    bottom: 70px;
+    right: 131px;
+    cursor: pointer;
+}

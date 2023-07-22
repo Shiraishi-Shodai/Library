@@ -1,0 +1,104 @@
+
+
+#contents{
+  width:100%;
+  font-size:40px;
+  margin: 5px auto;
+  color:#000000;
+}
+
+#login{
+  position: absolute;
+  top: 2px; /* #contents内の上から何pxか */
+  left: 1120px; /* #contents内の左から何pxか */
+  width:100%;
+  font-size:15px;
+  margin: 10px auto;
+  color:#000000;
+}
+/*パンくずリストのスタイル*/
+.breadcrumb{
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  }
+.breadcrumb li {
+  display: inline;
+  }
+.breadcrumb li:not(:last-child):after {
+  content: "＞";
+  margin: 0 5px;
+  }
+
+        /*パンくず*/
+        .breadcrumb {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          position: relative;
+          top: 30px;
+      }
+  
+      .pan a {
+          color: #000000;
+          text-decoration: none;
+          position: relative;
+          top: -40px;
+          left: 15px
+      }
+  
+      .breadcrumb li {
+          display: inline;
+          font-size: 25px;
+      }
+  /*本の固定*/
+  .books{
+    display: flex;
+  }
+  
+  /*文字の位置*/
+  .text{
+    margin-top:50px;
+    margin-left:50px;
+    padding: 0;
+  }
+
+  /*本の大きさ*/
+  .example1{
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  /*ボタンのスタイル*/
+  .buttonContainer {
+    position: relative;
+  }
+  
+  #returnButton /*戻るボタン*/{
+    position: absolute;
+    top: -10px; /* 上からの位置 */
+    left: 850px; /* 左からの位置 */
+    width: 350px; /* ボタンの幅 */
+    height: 55px; /* ボタンの高さ */
+    background-color: #FADF6A; /* ボタンの背景色 */
+    color: #fff; /* ボタンのテキスト色 */
+    border: none; /* ボタンのボーダーをなしにする */
+    border-radius: 10px; /* ボタンの角を丸める */
+    cursor: pointer; /* マウスカーソルをポインターにする */
+    margin-top: 20px; /* 上部の余白 */
+    margin-right: 10px; /* 右側の余白 */
+    font-size: 22px; /* テキストの大きさを変更する */
+  }
+
+  
+
+
+
+  
+
+
+
+  
+  
