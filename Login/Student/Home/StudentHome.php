@@ -211,6 +211,7 @@ $lentBooks = $dao->getLentNowBooks($user);
             };
         }
 
+
         // AjaxでAjax.phpにグラフ表示を促す関数。非同期で行う
         const openGraph = async () => {
 
@@ -225,6 +226,7 @@ $lentBooks = $dao->getLentNowBooks($user);
                     'processing': 'openGraph'
                 }
             })
+
         }
     </script>
 </body>
